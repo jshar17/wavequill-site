@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WaveQuill — Support</title>
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 0;
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1c1c1e; background: #ffffff;
+}
+.masthead {
+  background: linear-gradient(160deg, #6354e0, #9685f0);
+  color: #fff; padding: 44px 24px 40px;
+}
+.masthead-inner, main { max-width: 760px; margin: 0 auto; }
+.masthead h1 { margin: 0; font-size: 34px; letter-spacing: -0.02em; }
+.masthead p { margin: 6px 0 0; opacity: 0.9; }
+.masthead a { color: #fff; text-decoration: none; opacity: 0.92; }
+.masthead a:hover { text-decoration: underline; }
+nav { margin-top: 22px; display: flex; gap: 18px; flex-wrap: wrap; font-size: 15px; }
+main { padding: 40px 24px 80px; }
+h1, h2, h3 { line-height: 1.25; letter-spacing: -0.01em; }
+main h1 { font-size: 30px; margin: 0 0 8px; }
+h2 { font-size: 22px; margin: 40px 0 12px; }
+h3 { font-size: 18px; margin: 28px 0 10px; }
+ul, ol { padding-left: 24px; }
+li { margin: 8px 0; }
+code {
+  font: 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: rgba(120,120,128,0.14); padding: 2px 6px; border-radius: 5px;
+  overflow-wrap: anywhere;
+}
+hr { border: 0; border-top: 1px solid rgba(120,120,128,0.28); margin: 40px 0; }
+a { color: #5145d8; }
+footer {
+  border-top: 1px solid rgba(120,120,128,0.24); margin-top: 56px; padding-top: 22px;
+  font-size: 14px; color: #6b6b70;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #ececf1; background: #16161a; }
+  a { color: #a99cf7; }
+  code { background: rgba(120,120,128,0.26); }
+  footer { color: #9a9aa2; border-top-color: rgba(120,120,128,0.3); }
+  hr { border-top-color: rgba(120,120,128,0.3); }
+}
+</style>
+</head>
+<body>
+<header class="masthead"><div class="masthead-inner">
+<h1><a href="./">WaveQuill</a></h1>
+<p>Every wave becomes a word</p>
+<nav><a href="./">Support</a><a href="./privacy.html">Privacy</a><a href="./eula.html">License</a></nav>
+</div></header>
+<main>
+<h1>Support</h1>
+<p>WaveQuill records meetings on your Mac and transcribes them locally. If you
+have a question, a bug to report, or a request, email
+<a href="mailto:wavequillsupport@gmail.com">wavequillsupport@gmail.com</a> and you will get a reply from a person.</p>
+<h2>Before you write in</h2>
+<ul>
+<li><strong>No screens or windows listed?</strong> macOS needs Screen &amp; System
+Audio Recording permission. Grant it in System Settings &rsaquo; Privacy &amp;
+Security &rsaquo; Screen &amp; System Audio Recording, then quit and reopen
+WaveQuill — macOS only applies the change on relaunch.</li>
+<li><strong>Recording is silent?</strong> Internal meeting audio captures what your
+Mac plays. If your system output is routed to a virtual audio device, use the
+speaker selector so you can still hear the meeting.</li>
+<li><strong>Where are my recordings?</strong> The hero card shows the folder under
+SAVING TO. Change it with File &rsaquo; Choose Recording Library.</li>
+<li><strong>Transcript looks wrong?</strong> Transcripts come from a speech model
+running on your Mac. It makes mistakes, and on silence it can produce text that
+was never spoken. Check the recording before relying on a transcript.</li>
+</ul>
+<h2>Recording other people</h2>
+<p>Recording laws vary, and in some places everyone in a conversation must
+consent. You are responsible for knowing what applies to you and for telling
+participants that recording is on. WaveQuill shows a reminder before every
+recording; that reminder is not legal advice.</p>
+<h2>Your data</h2>
+<p>Recordings, transcripts and meeting names stay on your Mac. There is no
+account and no server of ours. See the <a href="./privacy.html">privacy
+policy</a> for the detail, including the one outbound request the app makes.</p>
+<footer>WaveQuill is a Mac app by Joseph Sharpe. <a href="./privacy.html">Privacy</a> &middot; <a href="./eula.html">License</a></footer>
+</main>
+</body>
+</html>
