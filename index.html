@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WaveQuill — Support</title>
+<title>WavePlume — Support</title>
 <style>
 :root { color-scheme: light dark; }
 * { box-sizing: border-box; }
@@ -40,6 +40,17 @@ footer {
   border-top: 1px solid rgba(120,120,128,0.24); margin-top: 56px; padding-top: 22px;
   font-size: 14px; color: #6b6b70;
 }
+.listing-card {
+  margin: 28px 0 36px; padding: 24px 26px;
+  border: 1px solid rgba(120,120,128,0.24); border-radius: 18px;
+  background: rgba(120,120,128,0.08);
+}
+.listing-card h2 { margin-top: 0; }
+.app-store-button {
+  display: inline-block; padding: 10px 16px; border-radius: 10px;
+  background: #5145d8; color: #fff; text-decoration: none; font-weight: 600;
+}
+.app-store-button:hover { background: #4237bd; text-decoration: none; }
 @media (prefers-color-scheme: dark) {
   body { color: #ececf1; background: #16161a; }
   a { color: #a99cf7; }
@@ -51,21 +62,35 @@ footer {
 </head>
 <body>
 <header class="masthead"><div class="masthead-inner">
-<h1><a href="./">WaveQuill</a></h1>
+<h1><a href="./">WavePlume</a></h1>
 <p>Every wave becomes a word</p>
-<nav><a href="./">Support</a><a href="./privacy.html">Privacy</a></nav>
+<nav><a href="./">Support</a><a href="./privacy.html">Privacy</a><a href="https://apps.apple.com/us/app/waveplume/id6797359772">Mac App Store</a></nav>
 </div></header>
 <main>
 <h1>Support</h1>
-<p>WaveQuill records meetings on your Mac and transcribes them locally. If you
+<p>WavePlume records meetings on your Mac and transcribes them locally. If you
 have a question, a bug to report, or a request, email
-<a href="mailto:wavequillsupport@gmail.com">wavequillsupport@gmail.com</a> and you will get a reply from a person.</p>
+<a href="mailto:support@shrpware.com">support@shrpware.com</a> and you will get a reply from a person.</p>
+<section class="listing-card">
+<h2>WavePlume for Mac</h2>
+<p><strong>Private meeting recorder</strong></p>
+<p>Capture your Mac's screen and audio, transcribe locally with WhisperKit, and
+keep recordings and transcripts in a folder you control. WavePlume has no
+account, no bot joining your call, and no server of ours for your meeting
+content.</p>
+<ul>
+<li>Current version: 1.2.2</li>
+<li>Requires macOS 15 or later</li>
+<li>Free on the Mac App Store</li>
+</ul>
+<p><a class="app-store-button" href="https://apps.apple.com/us/app/waveplume/id6797359772">View WavePlume on the Mac App Store</a></p>
+</section>
 <h2>Before you write in</h2>
 <ul>
 <li><strong>No screens or windows listed?</strong> macOS needs Screen &amp; System
 Audio Recording permission. Grant it in System Settings &rsaquo; Privacy &amp;
 Security &rsaquo; Screen &amp; System Audio Recording, then quit and reopen
-WaveQuill — macOS only applies the change on relaunch.</li>
+WavePlume — macOS only applies the change on relaunch.</li>
 <li><strong>Recording is silent?</strong> Internal meeting audio captures what your
 Mac plays. If your system output is routed to a virtual audio device, use the
 speaker selector so you can still hear the meeting.</li>
@@ -78,16 +103,16 @@ was never spoken. Check the recording before relying on a transcript.</li>
 <h2>Recording other people</h2>
 <p>Recording laws vary, and in some places everyone in a conversation must
 consent. You are responsible for knowing what applies to you and for telling
-participants that recording is on. WaveQuill shows a reminder before your first
+participants that recording is on. WavePlume shows a reminder before your first
 recording and may show it again when the notice changes; that reminder is not
 legal advice.</p>
 <h2>Your data</h2>
 <p>Recordings, transcripts and meeting names stay on your Mac. There is no
 account and no server of ours. See the <a href="./privacy.html">privacy
 policy</a> for the detail, including the one outbound request the app makes.</p>
-<p>WaveQuill is licensed under Apple’s standard Licensed Application End User
+<p>WavePlume is licensed under Apple’s standard Licensed Application End User
 License Agreement, which you can read on the App Store product page.</p>
-<footer>WaveQuill is a Mac app by Joseph Sharpe. <a href="./privacy.html">Privacy</a></footer>
+<footer>WavePlume is a Mac app by Joseph Sharpe. <a href="./privacy.html">Privacy</a> · <a href="https://apps.apple.com/us/app/waveplume/id6797359772">Mac App Store</a></footer>
 </main>
 </body>
 </html>
